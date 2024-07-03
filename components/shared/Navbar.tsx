@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="hidden items-center space-x-6 md:flex">
+    <nav className="hidden items-center space-x-6 lg:flex">
       {headerLinks.map((link, i) => (
         <Link
           key={i}

@@ -17,7 +17,7 @@ const MobileMenu = () => {
         <Button
           variant="ghost"
           size="icon"
-          className="md:hidden"
+          className="lg:hidden"
         >
           <MenuIcon className="size-6" />
           <span className="sr-only">

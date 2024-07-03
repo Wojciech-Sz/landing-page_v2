@@ -26,7 +26,7 @@ export default function Header() {
       <Navbar />
       <Button
         variant="default"
-        className="hidden text-base md:inline-flex"
+        className="hidden text-base lg:inline-flex"
       >
         <Link href="/#contact">Kontakt</Link>
       </Button>

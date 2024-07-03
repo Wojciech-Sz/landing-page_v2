@@ -20,6 +20,10 @@ export const headerLinks = [
     route: "/#services",
   },
   {
+    label: "Krok po kroku",
+    route: "/#stepbystep",
+  },
+  {
     label: "Projekty",
     route: "/#projects",
   },
@@ -374,6 +378,38 @@ export const offers = [
     icon: (
       <RefreshCwIcon className="size-10 shrink-0 text-gray-900 dark:text-gray-50" />
     ),
+  },
+];
+
+export const projectSteps = [
+  {
+    title: "Projekt 1",
+    steps: [
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+    ],
+  },
+  {
+    title: "Projekt 2",
+    steps: [
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+      "Krok",
+    ],
   },
 ];
 

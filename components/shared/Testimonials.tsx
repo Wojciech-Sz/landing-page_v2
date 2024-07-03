@@ -17,7 +17,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="w-full bg-gradient-to-b from-[#f0f8ff] to-gray-100 py-12 md:py-24 lg:py-32"
+      className="w-full bg-gradient-to-b from-white to-gray-100 py-12 md:py-24 lg:py-32"
     >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center">

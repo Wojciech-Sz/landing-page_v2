@@ -13,7 +13,7 @@ const Partners = () => {
   return (
     <section
       id="partners"
-      className="w-full  bg-gradient-to-b from-white to-[#f0f8ff] py-12  md:py-24 lg:py-32"
+      className="w-full  bg-gradient-to-b from-[#f0f8ff] to-white py-12  md:py-24 lg:py-32"
     >
       <div className="container flex flex-col items-center px-4 md:px-6">
         <div className="mb-10 text-center">

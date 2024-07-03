@@ -12,7 +12,7 @@ const Projects = () => {
     >
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-5xl">
-          <div className="mb-10 text-center">
+          <div className="mb-8 text-center md:mb-10">
             <h2 className="mb-4">Nasze Projekty</h2>
             <p className="text-xl font-medium text-gray-600 dark:text-gray-400 md:text-2xl">
               Spójrz na nasze najnowsze prace.

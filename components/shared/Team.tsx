@@ -11,14 +11,14 @@ const Team = () => {
   return (
     <section className="w-full bg-gradient-to-b from-[#f0f8ff] to-white pb-12 dark:bg-gray-800 md:pb-24 lg:pb-32">
       <div className="container px-4 md:px-6">
-        <div className="mb-10 text-center">
+        <div className="mb-8 text-center md:mb-10">
           <h2 className="mb-4">Nasz Zespół</h2>
           <p className="text-xl font-medium text-gray-600 dark:text-gray-400 md:text-2xl">
             Meet the talented individuals behind our
             success.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-8 px-10 md:flex-row md:flex-wrap md:gap-10 md:px-0">
+        <div className="flex  flex-wrap items-center justify-center gap-8  md:gap-10 md:px-0">
           {team.map((member, i) => (
             <div
               key={i}

@@ -55,7 +55,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="mx-auto max-w-md space-y-6">
+    <div className="max-w-md">
       <Form {...form}>
         <form
           className="flex flex-col gap-3"
@@ -68,7 +68,11 @@ const ContactForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormControl>
-                  <Input placeholder="Imię" {...field} />
+                  <Input
+                    className="text-base"
+                    placeholder="Imię"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -83,6 +87,7 @@ const ContactForm = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    className="text-base"
                     placeholder="Nazwisko"
                     {...field}
                   />
@@ -100,6 +105,8 @@ const ContactForm = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    type="tel"
+                    className="text-base"
                     placeholder="Numer telefonu (opcjonalne)"
                     {...field}
                   />
@@ -116,7 +123,12 @@ const ContactForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormControl>
-                  <Input placeholder="E-mail" {...field} />
+                  <Input
+                    type="email"
+                    className="text-base"
+                    placeholder="E-mail"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -130,7 +142,11 @@ const ContactForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormControl>
-                  <Input placeholder="Temat" {...field} />
+                  <Input
+                    className="text-base"
+                    placeholder="Temat"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -145,6 +161,7 @@ const ContactForm = () => {
               <FormItem>
                 <FormControl>
                   <Textarea
+                    className="text-base"
                     placeholder="Treść wiadomości"
                     {...field}
                   />
@@ -167,7 +184,7 @@ const ContactForm = () => {
                   />
                 </FormControl>
                 <div className="space-y-1 leading-none">
-                  <FormDescription>
+                  <FormDescription className="text-base">
                     Wyrażam zgodę na przetwarzanie moich
                     danych osobowych. Administratorem danych
                     jest. Dane zostaną wykorzystane w celu

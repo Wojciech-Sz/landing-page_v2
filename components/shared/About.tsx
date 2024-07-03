@@ -10,10 +10,10 @@ const About = () => {
       id="about"
       className="w-full bg-gradient-to-b from-white to-[#f0f8ff] py-16 md:py-28"
     >
-      <div className="container flex flex-col items-center gap-10 px-4 md:px-6">
-        <h2 className="-mb-6">O Nas</h2>
-        <div className="mb-8 grid grid-cols-1 gap-6 lg:grid-cols-[500px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
-          <div>
+      <div className="container flex flex-col items-center gap-8 px-4 md:gap-10 md:px-6">
+        <h2>O Nas</h2>
+        <div className="mb-8 grid grid-cols-1 gap-4 md:gap-6 lg:grid-cols-[500px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
+          <div className="flex items-center">
             <Image
               src="/assets/images/house-inside.jpg"
               width="550"
@@ -52,7 +52,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="order-first lg:order-last">
+          <div className="order-first flex items-center lg:order-last">
             <Image
               src="/assets/images/house-inside.jpg"
               width="550"

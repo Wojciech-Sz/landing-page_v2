@@ -13,16 +13,16 @@ const Contact = () => {
       id="contact"
       className="w-full bg-gradient-to-b from-gray-100 to-[#f0f8ff] py-12 dark:bg-gray-800 md:py-24 lg:py-32"
     >
-      <div className="container px-4 md:px-6">
-        <div className="mx-auto max-w-3xl">
-          <div className="mb-10 text-center">
-            <h2 className="mb-4">Kontakt</h2>
+      <div className="container flex justify-center px-4 md:px-6">
+        <div className="flex max-w-4xl flex-col gap-10">
+          <div className="flex flex-col gap-4 text-center">
+            <h2>Kontakt</h2>
             <p className="text-xl font-medium text-gray-600 dark:text-gray-400 md:text-2xl">
               Skontaktuj się z naszym zespołem.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="order-2 space-y-4 text-center md:order-first md:text-left">
+          <div className="flex flex-col-reverse gap-6 md:flex-row md:gap-10 lg:gap-20">
+            <div className="flex flex-col gap-2 text-center md:gap-4 md:text-left">
               <h3 className="text-xl font-bold md:text-2xl">
                 Informacje Kontaktowe
               </h3>

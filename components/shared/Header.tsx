@@ -12,7 +12,7 @@ import { MountainIcon } from "../Icons";
 
 export default function Header() {
   return (
-    <header className=" fixed inset-x-0 z-10 flex items-center justify-between bg-white/90 px-4 py-3 shadow-sm dark:bg-gray-950 md:px-6 md:py-4">
+    <header className=" fixed inset-x-0 top-0 z-10 flex items-center justify-between bg-white/90 px-4 py-3 shadow-sm dark:bg-gray-950 md:px-6 md:py-4">
       <Link
         href="/"
         className="flex items-center"
